@@ -197,12 +197,14 @@ img {
   width: 100%;
   border-bottom: 2px dashed grey;
   padding-bottom: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 #nav h2 {
   margin-left: 100px;
 }
 #nav nav {
-  width: 30%;
+  width: 20%;
   margin-right: 100px;
   display: flex;
   justify-content: space-between;
