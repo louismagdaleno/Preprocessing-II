@@ -246,6 +246,17 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home {
+  animation: 1s fadein 0.5s forwards;
+  opacity: 0;
+  color: #fff;
+}
+@keyframes fadein {
+  100% {
+    opacity: 1;
+    color: black;
+  }
+}
 @media (max-width: 500px) {
   .home {
     width: 100%;
